@@ -12,6 +12,7 @@ public class Test1 {
 
 	public static void main(String[] args) {
 		Person a = new Person();
+		System.out.println("Hello");
 		System.out.println(a.toString());
 		try {
 			Person.method1(a);
